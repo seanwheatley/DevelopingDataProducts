@@ -12,7 +12,7 @@ library(datasets)
 
 ## Project Overview 
 
-This presentation is part of the "Developing Data Products" course project.  These slides provide an overview of the application developed, which can be found here: https://seanwheatley-bah.shinyapps.io/Earthquakes/
+This presentation is part of the "Developing Data Products" course project.  These slides provide an overview of the application developed, which can be found here: https://seanwheatley-bah.shinyapps.io/Earthquakes/. The code used to develop the application can be found here: https://github.com/seanwheatley/DevelopingDataProducts/blob/master/app.R 
 
 
 ## Application Overview
