@@ -1,0 +1,35 @@
+---
+title: "Fiji Earthquakes"
+author: "Sean Wheatley"
+date: "February 12, 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(datasets)
+```
+
+## Project Overview 
+
+This presentation is part of the "Developing Data Products" course project.  These slides provide an overview of the application developed, which can be found here: https://seanwheatley-bah.shinyapps.io/Earthquakes/
+
+
+## Application Overview
+
+This R Shiny application utilizes a data set containing details on 1000 earthquakes that have hit Fiji since 1964.  The app allows the user to adjust certain sliders which dynamically update the map depending on whether or not each earthquake fits the existing parameters.  
+
+## The Data
+
+The Fiji earthquakes data contains 1000 observations. To get a sense of what the data looks like, the first few are displayed below:
+```{r echo = TRUE}
+head(quakes)
+```
+
+## Application Preview
+```{r echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("C:/Users/583951/Documents/Coursera/JHU Data Science/9 - Developing Data Products/app_preview.PNG")
+grid.raster(img)
+```
